@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neetu's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .photo-gallery img {
+            width: 100%;
+            height: auto;
+        }
+        .photo-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Neetu's World</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#contact">Contact</a>
+        <a href="#travel-blog">Travel Blog</a>
+        <a href="#photos">Photos</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Neetu. I love to travel and live in the moment. I believe that each day is an opportunity to explore new places, meet new people, and create unforgettable memories. Join me on my adventures as I share my travel experiences and photographs from around the world.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch with me, please feel free to send me an email at <a href="mailto:neetu@example.com">neetu@example.com</a>.</p>
+    </section>
+    <section id="travel-blog">
+        <h2>Travel Blog</h2>
+        <p>Stay tuned for updates on my latest travels and experiences. I'll be sharing stories, tips, and recommendations from my journeys around the globe.</p>
+    </section>
+    <section id="photos">
+        <h2>Photos</h2>
+        <div class="photo-gallery">
+            <img src="photo1.jpg" alt="Photo 1">
+            <img src="photo2.jpg" alt="Photo 2">
+            <img src="photo3.jpg" alt="Photo 3">
+            <!-- Add more photos as needed -->
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Neetu's World. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
